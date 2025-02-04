@@ -1,4 +1,3 @@
-# nodejs-infra-terraform
 # Terraform Infrastructure for Node.js App Deployment on AWS
 
 ## **Project Structure**
