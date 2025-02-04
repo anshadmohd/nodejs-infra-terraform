@@ -1,0 +1,35 @@
+# Local .terraform directories
+**/.terraform/*
+!.terraform/providers/
+
+# .tfstate files and backup
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Sensitive environment files
+.env
+*.env
+
+# Terraform variable files containing sensitive data
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Ignore lock file if used locally
+.terraform.lock.hcl
+
+# Ignore generated files
+*.tfvars.lock
+*.backup
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
