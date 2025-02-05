@@ -1,3 +1,3 @@
 output "bastion_sg_id" {
-  value = aws_security_group.bastion_sg.id
+  value = module.ec2_instance.bastion_sg_id
 }
